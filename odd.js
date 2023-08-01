@@ -9,4 +9,4 @@ console.log("8 is odd: " + isOdd(8));
 
 /* RESULT:
 3 is odd: true
-8 is odd: false
+8 is odd: false */
