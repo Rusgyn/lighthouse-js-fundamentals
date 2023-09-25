@@ -1,36 +1,15 @@
-// // Practice declaring and calling functions
+// tinkering: Declaring and calling functions
 
-const sayHello = function(name) {
-  console.log("Hello, " + name);
-}
-sayHello('Dean');
-sayHello('Miranda');
-sayHello('Gaby');
+const sayHello = function (name) { // function sayHello with parameter name
+  console.log("Hello, " + name + "!");
+};
 
+sayHello("Gabby");
+sayHello("Dean");
+sayHello("Aury");
 
-// return and console.log
-
-//console.log
-const sayHelloToConsole = function(name){
-  console.log("Hello, " + name);
-}
-sayHelloToConsole('John');
-
-//---------------------------------------------
-
-//return
-const returnSayHello = function(name) {
-  return "Hello, " + name;
-}
-// add additional variable to practice
-
-const today = function(hi) {
-  return "\n" + "Hi " + hi + ". How are you?. I am glad to finally meet you!"
-}
-
-const greeting = returnSayHello('James');
-const glad = today('Gaby');
-console.log((greeting) + (glad)); 
-
-/* RESULT: Hello, James
-Hi Gaby. How are you?. I am glad to finally meet you!*/
+/* OUTPUT:
+Hello, Gabby!
+Hello, Dean!
+Hello, Aury!
+*/
